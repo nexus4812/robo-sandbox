@@ -9,7 +9,9 @@ class GitRepository extends Tasks implements GitRepositoryInterface
 {
     public function gitPull(): void
     {
-        $cmd = "git pull";
-        $result = $this->taskExec($cmd)->run();
+        echo "Mock: git pull is called";
+
+        // $cmd = "git pull";
+        // $result = $this->taskExec($cmd)->run();
     }
 }

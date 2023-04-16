@@ -2,6 +2,7 @@
 
 namespace RoboSandbox\Robo;
 
+use League\Container\ReflectionContainer;
 use Robo\Common\ConfigAwareTrait;
 use Robo\Config\Config;
 use Robo\Robo;
